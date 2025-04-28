@@ -1,19 +1,32 @@
-FURIABot - Chatbot da FURIA CS2
+## FURIABot - Chatbot da FURIA CS2
 
-VISÃO GERAL:
-FURIABot é um chatbot simulando um assistente virtual para fãs da FURIA Esports (CS2), com:
--Informações sobre jogadores, torneios e histórico do time
--Respostas automatizadas sobre o cenário competitivo
--Interface simples baseada em texto
+## OBJETIVO DO PROJETO:
+Este projeto foi criado exclusivamente para avaliação técnica, demonstrando:
+-Capacidade de organizar informações temáticas
+-Habilidade para documentar código
+-Familiaridade com fluxos de chat simples
 
 ![image](https://github.com/user-attachments/assets/1e4be884-76f0-407d-8568-8faa81bab4ca)
 
-TECNOLOGIAS USADAS:
--JavaScript (lógica do bot)
--HTML/CSS (interface simulada)
--Git (controle de versão)
+## FUNCIONALIDADES IMPLEMENTADAS:
 
- ESTRUTURA DO PROJETO:
+1- Menu interativo com opções pré-definidas:
+-Próximos torneios
+-Line-up titular
+-Estatísticas dos players
+-História do time
+
+2- Respostas dinâmicas baseadas em dados estáticos (simulando integração com API futura)
+
+## TECNOLOGIAS USADAS:
+
+- HTML5
+- CSS3
+- JavaScript
+- Font Awesome (para ícones)
+- Git (controle de versão)
+
+ ## ESTRUTURA DO PROJETO:
  Projeto-FURIABot/
 │
 ├── index.html          # Página principal
@@ -23,33 +36,20 @@ TECNOLOGIAS USADAS:
 │   └── Furia_logo.png  # Logo do time FURIA
 └── README.md           # Documentação do projeto
 
-FUNCIONALIDADES IMPLEMENTADAS:
-
-1- Menu interativo com opções pré-definidas:
--Próximos torneios
--Line-up titular
--Estatísticas dos players
--História do time
-
-2-Respostas dinâmicas baseadas em dados estáticos (simulando integração com API futura)
-
-OBJETIVO DO PROJETO:
-Este projeto foi criado exclusivamente para avaliação técnica, demonstrando:
--Capacidade de organizar informações temáticas
--Habilidade para documentar código
--Familiaridade com fluxos de chat simples
-
-COMO TESTAR LOCALMENTE:
+## COMO TESTAR LOCALMENTE:
 1- Clone o repositório:
+```bash
 git clone https://github.com/KaduLannes/Projeto-FURIABot.git
+```
 
-2- Navegue até o diretório do projeto:
-cd Projeto-FURIABot
+2- Navegue até apasta do projeto
 
-Não há necessidade de configurar um servidor, basta abrir o arquivo HTML diretamente no navegador.
+3- Abra o arquivo index.html diretamente em seu navegador
+
+Não é necessário instalar nenhuma dependência
 
 LICENÇA 
-Este é um projeto fictício para fins avaliativos. Licenciado sob MIT
+Este é um projeto fictício para fins avaliativos e de aprendizado
 
 
 
