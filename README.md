@@ -27,14 +27,17 @@ Este projeto foi criado exclusivamente para avaliação técnica, demonstrando:
 - Git (controle de versão)
 
  ## ESTRUTURA DO PROJETO:
- Projeto-FURIABot/
+Projeto-FURIABot/
+├── data/
+│   └── script.js            # Toda a lógica e funcionamento do FURIABot  
 │
-├── index.html          # Página principal
-├── data/script.js      # Lógica do chatbot
-├── styles/style.css    # Estilos da página
-├── public/             # Imagens e ícones
-│   └── Furia_logo.png  # Logo do time FURIA
-└── README.md           # Documentação do projeto
+├── public/
+│   └── Furia_logo.png       # Imagem do logo
+│
+├── styles/
+│   └── style.css            # Estilo da página
+│
+└── index.html               # Página principal
 
 ## COMO TESTAR LOCALMENTE:
 1- Clone o repositório:
@@ -48,10 +51,14 @@ git clone https://github.com/KaduLannes/Projeto-FURIABot.git
 
 Não é necessário instalar nenhuma dependência
 
-LICENÇA 
+## LICENÇA 
 Este é um projeto fictício para fins avaliativos e de aprendizado
 
+## Agradecimentos
 
+- FURIA Esports por inspirar este projeto
+- Comunidade FURIA pelo apoio
+- Todos os contribuidores que ajudaram a tornar este projeto possível
 
 
 
